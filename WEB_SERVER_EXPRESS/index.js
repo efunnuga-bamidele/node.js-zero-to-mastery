@@ -29,7 +29,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
     res.render('index', {
         title: 'My Friends Are Very Clever',
-        caption: "Let's go skiing"
+        caption: "Let's go skiing!"
     })
 });
 app.use('/friends', friendsRouter);
