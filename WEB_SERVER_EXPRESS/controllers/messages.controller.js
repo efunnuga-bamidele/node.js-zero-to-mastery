@@ -6,7 +6,7 @@ function getMessages(req, res){
     // res.send('Getting the messages.....')
 
     //to send files
-    res.sendFile(path.join(__dirname, '..', 'public', 'books.jpg'));
+    res.sendFile(path.join(__dirname, '..', 'public', 'images', 'books.jpg'));
 
 }
 
